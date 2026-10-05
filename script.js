@@ -20,10 +20,10 @@ function renderProducts() {
         <article class="product-card">
           <img
             class="product-image"
-            src="images/${product.image}"
+            src="image/${product.image}"
             alt="${product.name}"
             loading="lazy"
-            onerror="this.onerror=null;this.src='images/placeholder.svg';"
+            onerror="this.onerror=null;this.src='image/placeholder.svg';"
           />
           <div class="product-info">
             <h2 class="product-name">${product.name}</h2>
